@@ -840,6 +840,6 @@ NODE_CLASS_MAPPINGS = {
 
 # Display Names for ComfyUI
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "LatentSyncNode": "LatentSync1.6-XZG",
-    "VideoLengthAdjuster": "Video Length Adjuster (XZG)",
+    "LatentSyncNode": "LatentSync1.6-xzg",
+    "VideoLengthAdjuster": "Video Length Adjuster (xzg)",
 }
