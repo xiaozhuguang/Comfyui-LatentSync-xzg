@@ -1,0 +1,16 @@
+﻿checkpoints/
+models/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+__pycache__/
+*.pyc
+*.pyo
+temp/
+*.mp4
+*.wav
+*.log
+Thumbs.db
+.DS_Store

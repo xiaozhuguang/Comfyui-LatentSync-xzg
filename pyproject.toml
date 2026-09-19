@@ -1,0 +1,14 @@
+[project]
+name = "Comfyui-LatentSync-XZG"
+description = "XZG 版 LatentSync 1.6 唇形同步节点。修复 VAE fp16 导致的嘴部绿块，并优化 ComfyUI 进程内显存占用。"
+version = "1.6.0"
+license = {file = "LICENSE"}
+dependencies = ["diffusers", "transformers", "huggingface-hub", "omegaconf", "einops", "opencv-python", "mediapipe", "face-alignment", "decord", "ffmpeg-python", "safetensors", "soundfile", "DeepCache"]
+
+[project.urls]
+Repository = "local"
+
+[tool.comfy]
+PublisherId = "xzg"
+DisplayName = "Comfyui-LatentSync-XZG"
+Icon = ""

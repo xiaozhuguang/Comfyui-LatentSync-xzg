@@ -1,0 +1,20 @@
+# LatentSync 1.6 XZG 插件依赖
+# 注意：onnxruntime 用 CPU 版（onnxruntime-gpu 会与 insightface/numpy 二进制冲突）
+diffusers
+mediapipe>=0.10.8
+transformers
+huggingface-hub>=0.10.0
+omegaconf
+einops
+opencv-python
+face-alignment
+decord
+ffmpeg-python>=0.2.0
+safetensors
+soundfile
+DeepCache
+accelerate
+pytorch_lightning
+kornia
+insightface
+onnxruntime
